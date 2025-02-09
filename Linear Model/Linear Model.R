@@ -11,7 +11,7 @@ library(stargazer)
 
 setwd(choose.dir())
 getwd()
-baldini<-read.csv("baldini.csv")
+baldini<-read.csv("Data.csv")
 
 
 #Question 1 - OLS
