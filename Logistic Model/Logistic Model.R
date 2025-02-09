@@ -12,7 +12,7 @@ library(bucky)
 
 setwd(choose.dir())
 getwd()
-baldini<-read.csv("hw4_baldini.csv")
+baldini<-read.csv("Data.csv")
 
 #a) Create the new variable dambexp
 dambexp<-ifelse(baldini$ambexp>0, 1, 0)
